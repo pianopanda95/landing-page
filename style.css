@@ -44,7 +44,7 @@ h1 {
     border-radius: 5px;
 }
 
-button{
+button {
     background-color: #3882f6;
     color: white;
     border-radius: 5px;
@@ -122,7 +122,6 @@ button{
 
 h3 {
     font-size: 22px;
-    margin-bottom: -5px;
 }
 
 #button-holder {
