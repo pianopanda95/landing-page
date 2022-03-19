@@ -1,0 +1,43 @@
+body {
+    font-family: Roboto, Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.header, .first {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    padding: 5px 200px 80px 200px;
+}
+
+#link-one {
+    margin-left: auto;
+}
+
+.first {
+    flex-flow: column wrap;
+
+}
+
+#madartej {
+    justify-self: flex-end;
+}
+
+
+
+
+
+
+
+button{
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+}
+
+
+.third {
+    background-color: #e5e7eb;
+}
+
+
