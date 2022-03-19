@@ -1,13 +1,15 @@
 body {
     font-family: Roboto, Georgia, 'Times New Roman', Times, serif;
-
+    margin: 0;
 }
 
 .header, .first {
     background-color: #1f2937;
     color: #f9faf8;
     display: flex;
-    padding: 5px 200px 80px 200px;
+    padding: 5px 10% 80px 10%;
+    column-gap: 12px;
+    align-items: baseline;
 }
 
 #link-one {
@@ -15,25 +17,77 @@ body {
 }
 
 .first {
-    flex-flow: column wrap;
+    height: 400px;
+}
 
+#first-of-first {
+    align-self: stretch;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 48px;
+    font-style: bold;
+    margin: 0;
+}
+
+#ff-p {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 #madartej {
+    height: 400px;
+    width: 600px;
     justify-self: flex-end;
+    margin-left: 20px;
+    border-radius: 5px;
 }
-
-
-
-
-
-
 
 button{
     background-color: #3882f6;
     color: white;
     border-radius: 5px;
+    width: 80px;
+    padding: 3px;
+    border: 0px;
 }
+
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightskyblue;
+    padding: 30px;
+    font-size: 32px;
+    gap: 10px;
+    color: rgb(40, 40, 40);
+}
+
+#steps-container {
+    display: flex;
+}
+
+.steps {
+    margin: 20px;
+    width: 250px;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.steps-image {
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#ban {
+    margin-top: -180px;
+}
+
 
 
 .third {
