@@ -88,8 +88,6 @@ button {
     margin-top: -180px;
 }
 
-
-
 .third {
     background-color: #e5e7eb;
     color: #1f2937;
@@ -132,6 +130,7 @@ h3 {
     border: 1px solid #f9faf8;
     width: fit-content;
     padding: 12px;
+    margin-left: 30px;
 }
 
 .footer {
